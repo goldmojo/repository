@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-	<addon id="plugin.video.melodice" name="Unofficial Melodice player" version="1.0.0" provider-name="goldmojo">
+	<addon id="plugin.video.melodice" name="Unofficial Melodice player" version="1.0.1" provider-name="goldmojo">
 		<requires>
 			<import addon="xbmc.python" version="2.14.0"/>
 			<import addon="plugin.video.youtube" version="6.5.2"/>
@@ -18,7 +18,7 @@
 			<assets>
 				<icon>icon.png</icon>
 			</assets>
-			<news>Initial release</news>
+			<news>Change deprecated youtube API</news>
 		</extension>
 	</addon>
 	<addon id="repository.goldmojo" name="goldmojo Add-on Repository" version="0.0.1" provider-name="goldmojo">

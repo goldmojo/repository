@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.goldmojo" name="goldmojo Add-on Repository" version="0.0.1" provider-name="goldmojo">
+<addon id="repository.goldmojo" name="goldmojo Add-on Repository" version="0.0.2" provider-name="goldmojo">
     <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="goldmojo Add-on Repository">
         <info compressed="false">https://raw.githubusercontent.com/goldmojo/repository/master/addons.xml</info>
@@ -12,8 +12,5 @@
         <summary>goldmojo's repo of Kodi addons</summary>
         <description>This is a repository of Kodi addons developed by goldmojo</description>
         <platform>all</platform>
-        <assets>
-		    <icon>icon.png</icon>
-		</assets>
     </extension>
 </addon>

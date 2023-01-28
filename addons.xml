@@ -22,18 +22,20 @@
 		</extension>
 	</addon>
 	<addon id="repository.goldmojo" name="goldmojo Add-on Repository" version="0.0.2" provider-name="goldmojo">
-		<requires>
-			<import addon="xbmc.python" version="3.0.0"/>
-		</requires>
 		<extension point="xbmc.addon.repository" name="goldmojo Add-on Repository">
-			<info compressed="false">https://raw.githubusercontent.com/goldmojo/repository/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/goldmojo/repository/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/goldmojo/repository/master/zips/</datadir>
+			<dir>
+				<info compressed="false">https://raw.githubusercontent.com/goldmojo/repository/master/addons.xml</info>
+				<checksum>https://raw.githubusercontent.com/goldmojo/repository/master/addons.xml.md5</checksum>
+				<datadir zip="true">https://github.com/goldmojo/repository/raw/master/zips</datadir>
+			</dir>
 		</extension>
 		<extension point="xbmc.addon.metadata">
 			<summary>goldmojo's repo of Kodi addons</summary>
-            <description>This is a repository of Kodi addons developed by goldmojo</description>
+			<description>This is a repository of Kodi addons developed by goldmojo</description>
 			<platform>all</platform>
 		</extension>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
 	</addon>
 </addons>

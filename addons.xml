@@ -21,7 +21,7 @@
 			<news>Python 3 / Matrix compatibility</news>
 		</extension>
 	</addon>
-	<addon id="repository.goldmojo" name="goldmojo Add-on Repository" version="0.0.2" provider-name="goldmojo">
+	<addon id="repository.goldmojo" name="goldmojo Add-on Repository" version="0.0.3" provider-name="goldmojo">
 		<extension point="xbmc.addon.repository" name="goldmojo Add-on Repository">
 			<dir>
 				<info compressed="false">https://raw.githubusercontent.com/goldmojo/repository/master/addons.xml</info>
@@ -33,9 +33,9 @@
 			<summary>goldmojo's repo of Kodi addons</summary>
 			<description>This is a repository of Kodi addons developed by goldmojo</description>
 			<platform>all</platform>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
 		</extension>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
 	</addon>
 </addons>
